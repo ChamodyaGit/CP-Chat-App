@@ -55,19 +55,16 @@ Follow these steps to get a local copy up and running.
 
 4.  **Configure Environment:**
 
-```bash
-cp .env.example .env
-```
-
-```bash
-php artisan key:generate
-```
+    ```bash
+    cp .env.example .env
+    php artisan key:generate
+    ```
 
 ### 3. Run database migrations
 
-```bash
-php artisan migrate
-```
+    ```bash
+    php artisan migrate
+    ```
 
 ## ⚡Running the Application
 
