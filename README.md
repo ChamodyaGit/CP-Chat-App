@@ -46,10 +46,13 @@ Follow these steps to get a local copy up and running.
     ```bash
     composer install
     ```
+
 3.  **Install Frontend dependencies:**
 
-    ```bash
-    npm install
+        ```bash
+        npm install
+
+    npm run build
     ```
 
 4.  **Configure Environment & Database:**
