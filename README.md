@@ -49,9 +49,13 @@ Follow these steps to get a local copy up and running.
 
 3.  **Install Frontend dependencies:**
 
+            ```bash
+    npm install
+````
+
         ```bash
-        npm install && npm run build
-        ```
+npm run build
+````
 
 4.  **Configure Environment & Database:**
 
@@ -98,6 +102,8 @@ This project is open-sourced software licensed under the [MIT license](https://o
 ---
 
 _Developed with ❤️ to simplify professional communication._
+
+```
 
 ```
 
