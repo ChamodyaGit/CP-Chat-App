@@ -51,7 +51,6 @@ Follow these steps to get a local copy up and running.
 
         ```bash
         npm install
-
     npm run build
     ```
 
