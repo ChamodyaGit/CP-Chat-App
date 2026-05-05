@@ -83,7 +83,7 @@ php artisan migrate
 
 ## 👤 Author
 
-**<YOUR_NAME>**
+**Chamodya Punsara**
 
 - **GitHub:** [@ChamodyaGit](https://github.com/ChamodyaGit)
 - **LinkedIn:** [Chamodya Punsara](https://linkedin.com/in/chamodya-punsara)
