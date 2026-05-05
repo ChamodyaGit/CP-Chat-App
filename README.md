@@ -51,18 +51,27 @@ Follow these steps to get a local copy up and running.
 
         ```bash
         npm install && npm run build
-
-            # Create .env, generate key, and run migrations
-
-        cp .env.example .env && \
-        php artisan key:generate && \
-        php artisan migrate && \
-        php artisan serve
         ```
 
-    > **Note:** Before running `php artisan migrate`, make sure you have created a database and updated the `DB_DATABASE`, `DB_USERNAME`, and `DB_PASSWORD` in your `.env` file.
+4.  **Configure Environment & Database:**
 
----
+# Create .env file from example
+
+```bash
+cp .env.example .env
+```
+
+# Generate application key
+
+```bash
+php artisan key:generate
+```
+
+# Run database migrations
+
+```bash
+php artisan migrate
+```
 
 ## 📸 Screenshots
 
@@ -89,3 +98,9 @@ This project is open-sourced software licensed under the [MIT license](https://o
 ---
 
 _Developed with ❤️ to simplify professional communication._
+
+```
+
+```
+
+```
