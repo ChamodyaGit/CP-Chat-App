@@ -51,11 +51,11 @@ Follow these steps to get a local copy up and running.
 
             ```bash
     npm install
-````
+```
 
         ```bash
 npm run build
-````
+```
 
 4.  **Configure Environment & Database:**
 
