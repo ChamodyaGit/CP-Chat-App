@@ -53,15 +53,11 @@ Follow these steps to get a local copy up and running.
     npm install
     npm run build
 
-4.  **Configure Environment & Database:**
-
-# Create .env file from example
+4.  **Configure Environment:**
 
 ```bash
 cp .env.example .env
 ```
-
-# Generate application key
 
 ```bash
 php artisan key:generate
@@ -73,13 +69,25 @@ php artisan key:generate
 php artisan migrate
 ```
 
-## 📸 Screenshots
+## ⚡Running the Application
 
-|                           Landing Page                            |                          Chat Interface                          |
-| :---------------------------------------------------------------: | :--------------------------------------------------------------: |
-| ![Landing](https://via.placeholder.com/400x250?text=Landing+Page) | ![Chat](https://via.placeholder.com/400x250?text=Chat+Interface) |
+1.  **Web Server:**
 
----
+    ```bash
+    php artisan serve
+    ```
+
+2.  **WebSocket Server (Reverb):**
+
+    ```bash
+    php artisan reverb:start
+    ```
+
+3.  **Queue Worker:**
+
+    ```bash
+    php artisan queue:listen
+    ```
 
 ## 👤 Author
 
@@ -97,7 +105,7 @@ This project is open-sourced software licensed under the [MIT license](https://o
 
 ---
 
-_Developed with ❤️ to simplify professional communication._
+_Developed with ❤️ by Chamodya Punsara to simplify professional communication._
 
 ```
 
