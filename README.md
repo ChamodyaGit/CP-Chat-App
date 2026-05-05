@@ -63,7 +63,7 @@ cp .env.example .env
 php artisan key:generate
 ```
 
-# Run database migrations
+### 3. Run database migrations
 
 ```bash
 php artisan migrate
@@ -106,11 +106,3 @@ This project is open-sourced software licensed under the [MIT license](https://o
 ---
 
 _Developed with ❤️ by Chamodya Punsara to simplify professional communication._
-
-```
-
-```
-
-```
-
-```
