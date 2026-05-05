@@ -53,14 +53,15 @@ Follow these steps to get a local copy up and running.
     npm install
     npm run build
 
+    ```
+
 4.  **Configure Environment:**
 
     ```bash
     cp .env.example .env
     php artisan key:generate
-    ```
 
-### 3. Run database migrations
+5.  **Run database migrations:**
 
     ```bash
     php artisan migrate
